@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: lightgreen;
+    width: 100%;
+}
+form{
+    text-align: center;
+    align-content: center;
+    background: rgb(249, 253, 16);
+    width: 80%;
+    border-radius: 5px;
+    padding: 5%;
+    margin: auto;
+    margin-top: 10%;
+    vertical-align: middle;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+}
+button{
+    border: none;
+    background: green;
+    color: rgb(255, 255, 255);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
