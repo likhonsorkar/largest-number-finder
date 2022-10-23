@@ -10,25 +10,26 @@ btn.addEventListener('click', function (e) {
       e.preventDefault();
 
       // check the condition 
-      /*  if(num1 =="" || num2 =="" || num3 ==""){
+      /* if(num1 =="" || num2 =="" || num3 ==""){
             alert("please enter 3 number");
         }
-        else if(num1 >= num2 && num1 >= num3) {
-            result.innerText = `${num1} is largest number`;
+        else if(num1 > num2 && num1 > num3) {
+            result.innerText = (num1 + " is largest number");
         }
-        else if (num2 >= num1 && num2 >= num3) {
-            result.innerText = `${num2} is largest number`;
+        else if (num2 > num1 && num2 > num3) {
+            result.innerText = (num2 + " is largest number");
         }
-        else if(num3 >= num1 && num3 >= num2){
-            result.innerText = `${num3} is largest number`;
+        else if(num3 > num1 && num3 > num2){
+            result.innerText = (num3 + " is largest number") ;
         }
         else{
-            result.innerText = `${num1}, ${num2}, ${num3} all number is equel`;
+            result.innerText = (num1 + " is equel value of all");
         }
       */
        // check With Math.max()
       let maxNumber = Math.max(num1,num2,num3);
-      result.innerText = '${maxNumber} is largest number';
+      result.innerText = (maxNumber + " is largest number");
+      
 
 
 })
